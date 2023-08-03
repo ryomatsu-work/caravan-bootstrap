@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3b41251886.js" crossorigin="anonymous"></script>
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="style.css">
+    <title>CARAVAN</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <h1 class="heading">
+        <a href="index.html">
+          CARAVAN
+        </a>
+      </h1>
+      <div class="social">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+    </header>
+
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Topic</a>
+      </li>
+    </ul>
+
+    <!-- main-visual用のdiv -->
+    <div class="main-visual">
+      <div class="main-visual-content">
+        <p class="main-visual-text">
+          The world is a book<br>
+          and those who do not travel<br>
+          read only one page.
+        </p>
+        <p class="main-visual-name">
+          St. Augustine
+        </p>
+      </div>
+    </div>
+
+    <main class="d-flex flex-column flex-sm-column flex-md-row justify-content-center my-5">
+      <section class="mr-3">
+        <h2 class="blog-heading">Recent Blogs</h2>
+
+        <div class="articles ml-3">
+          <article class="d-flex align-items-center my-5">
+            <img class="blog-image mr-3" src="img/forest.jpg">
+            <div class="">
+              <h3 class="blog-text-heading">
+                <a href="single.html">
+                  Hopeful lessons from<br>
+                  the battle to save<br>
+                  rainforests
+                </a>
+              </h3>
+              <p class="blog-date">June 19, 2017</p>
+              <span class="category">Nature</span>
+            </div>
+          </article>
+
+          <article class="d-flex align-items-center my-5">
+            <img class="blog-image mr-3" src="img/desert.jpg">
+            <div class="media-body">
+              <h3 class="blog-text-heading">
+                <a href="single.html">
+                  How to fight<br>
+                  desertification and<br>
+                  reverse climate change
+                </a>
+              </h3>
+              <p class="blog-date">June 17, 2017</p>
+              <span class="category">Nature</span>
+            </div>
+          </article>
+
+          <article class="d-flex align-items-center my-5">
+            <img class="blog-image mr-3" src="img/sunset.jpg">
+            <div class="media-body">
+              <h3 class="blog-text-heading">
+                <a href="single.html">
+                  Why I'm rowing<br>
+                  across the Pacific
+                </a>
+              </h3>
+              <p class="blog-date">June 16, 2017</p>
+              <span class="category">Adventure</span>
+            </div>
+          </article>
+
+          <article class="d-flex align-items-center my-5">
+            <img class="blog-image mr-3" src="img/italy.jpg">
+            <div class="media-body">
+              <h3 class="blog-text-heading">
+                <a href="single.html">
+                  Unseen footage,<br>
+                  untamed nature
+                </a>
+              </h3>
+              <p class="blog-date">June 15, 2017</p>
+              <span class="category">Nature</span>
+            </div>
+          </article>
+
+          <article class="d-flex align-items-center my-5">
+            <img class="blog-image mr-3" src="img/asia.jpg">
+            <div class="media-body">
+              <h3 class="blog-text-heading">
+                <a href="single.html">
+                  The case for<br>
+                  engineering our food
+                </a>
+              </h3>
+              <p class="blog-date">June 14, 2017</p>
+              <span class="category">Culture</span>
+            </div>
+          </article>
+
+        </div>
+
+        <nav aria-label="pagination" class="my-3">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;&laquo;</span>
+                <span class="sr-only">First</span>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;&raquo;</span>
+                <span class="sr-only">Last</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <div class="sidebar">
+        <section class="popular">
+          <h2 class="popular-heading common-heading">Popular</h2>
+          <ul class="list-unstyled my-5">
+            <li class="popular-text">To solve old problems,<br>study new species</li>
+            <li class="popular-text">Why Earth may someday<br>look like Mars</li>
+            <li class="popular-text">What will humans look<br>like in 100 years?</li>
+            <li class="popular-text">How to grow a forest<br>in your backyard</li>
+            <li class="popular-text">How humans could evolve<br>to survive in space</li>
+          </ul>
+        </section>
+        <section class="instagram">
+          <h2 class="instagram-heading common-heading">Instagram</h2>
+          <div class="sidebar-contents my-5">
+            <div class="row">
+              <div class="col-6 mb-3"> <img src="img/airport.jpg" class="w-100"> </div>
+              <div class="col-6 mb-3"> <img src="img/japan.jpg" class="w-100"> </div>
+              <div class="col-6 mb-3"> <img src="img/snow.jpg" class="w-100"> </div>
+              <div class="col-6 mb-3"> <img src="img/japan2.jpg" class="w-100"> </div>
+              <div class="col-6 mb-3"> <img src="img/lake.jpg" class="w-100"> </div>
+              <div class="col-6 mb-3"> <img src="img/road.jpg" class="w-100"> </div>
+            </div>
+          </div>
+        </section>
+        <section class="categories">
+          <h2 class="categories-heading common-heading">Categories</h2>
+          <ul class="list-unstyled my-5">
+            <li class="categories-text">Technology(15)</li>
+            <li class="categories-text">Business(23)</li>
+            <li class="categories-text">Entertainment(12)</li>
+            <li class="categories-text">Nature(32)</li>
+            <li class="categories-text">Education(9)</li>
+            <li class="categories-text">Adventure(23)</li>
+            <li class="categories-text">Communication(14)</li>
+          </div>
+        </section>
+      </div>
+    </main>
+
+
+    <!-- footer -->
+    <footer>
+      <p class="footer-text">© All rights reserved by Infratop.Inc.</p>
+    </footer>
+    </body>
+</html>
